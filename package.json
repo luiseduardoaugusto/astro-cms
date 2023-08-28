@@ -1,0 +1,19 @@
+{
+  "name": "@example/blog",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^2.10.14"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^2.6.0",
+    "astro-netlify-cms": "^0.5.2"
+  }
+}
